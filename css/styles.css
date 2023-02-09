@@ -135,12 +135,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1024px){
-    #title{
+    
+    body, .title-row{
      text-align: center;   
     }
     .dog-img{
        position: static; 
        transform: rotate(0);
+    }
+
+    .nav-link{
+        color:#fff;
+        font-weight: bold;
     }
     
 }
